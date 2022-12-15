@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+void add(int a,int b)
+{
+    cout<<"Addition: "<<a+b<<endl;
+}
+void sub(int a,int b)
+{
+    cout<<"Subtraction: "<<a-b<<endl;
+}
+void multiply(int a,int b)
+{
+    cout<<"Multiplication: "<<a*b<<endl;
+}
+void division(int a,int b)
+{
+    cout<<"Division: "<<a/b<<endl;
+}
+void mod(int a,int b)
+{
+    cout<<"Modulus: "<<a%b;
+}
+int main()
+{ 
+    int a,b;
+    cin>>a>>b;
+    add(a,b);
+    sub(a,b);
+    multiply(a,b);
+    division(a,b);
+    mod(a,b);
+}
